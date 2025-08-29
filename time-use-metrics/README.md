@@ -9,8 +9,8 @@ After another five years of consistent tracking (and fallen Babels), I'd attaine
 I present to you my Time Oracle ☯️
 
 <figure>
-<!--   <img width="4470" height="2366" alt="widget-screenshot" src="https://github.com/user-attachments/assets/36448b5b-450a-492d-beeb-eead762ab3c5" /> -->
-  <img width="600" height="317" alt="widget-screenshot" src="https://github.com/user-attachments/assets/36448b5b-450a-492d-beeb-eead762ab3c5" /><br>
+  <img width="4470" height="2366" alt="widget-screenshot" src="https://github.com/user-attachments/assets/36448b5b-450a-492d-beeb-eead762ab3c5" />
+<!--   <img width="600" height="317" alt="widget-screenshot" src="https://github.com/user-attachments/assets/36448b5b-450a-492d-beeb-eead762ab3c5" /><br> -->
   <figcaption>Subset of the raw data. You can see a holiday earlier on, an intense period in the middle, and evolving priorities throughout.</figcaption>
 </figure>
 
@@ -30,13 +30,35 @@ Developed a system to process Toggl time tracking data into long/short-run metri
 ## Plots and Widget
 
 <figure>
-  <img width="600" height="238" alt="download" src="https://github.com/user-attachments/assets/fe65d86a-8cc2-4b0d-8022-0e67a9c08ca9" /><br>
+  <img width="800" height="317" alt="download" src="https://github.com/user-attachments/assets/fe65d86a-8cc2-4b0d-8022-0e67a9c08ca9" /><br>
   <figcaption>Same totals data as above, but plotting each weekday separately.</figcaption>
 </figure>
 
+## Visualization
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <td style="text-align:center; padding:10px;">
+      <img width="409" height="879" alt="fri" src="https://github.com/user-attachments/assets/e4c039bf-a86e-47dc-b179-9d06d84cd209" /><br>
+      <figcaption style="text-align:center;">Friday data</figcaption>
+    </td>
+    <td style="text-align:center; padding:10px;">
+      <img width="409" height="879" alt="sat" src="https://github.com/user-attachments/assets/db1fdcb7-8d91-41d7-a1fb-0349a4c365e6" /><br>
+      <figcaption style="text-align:center;">Saturday data - day off as you can see</figcaption>
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
 ## Findings
 Here's what I found after 6+ months of use:
-- Having outputs directly presented on iPhone home screen means I'm up to date with how my day compares to prior days, prior weekdays ($t-7n$ for $n$ weeks prior) and the average day compared to some window-length of prior days.
+- Having outputs directly presented on iPhone home screen means I'm up to date with how my day compares to prior days, prior weekdays (n previous mondays) and the average day compared to some window-length of prior days.
 - Identified patterns that led to short term exhaustion and sustainable intensity levels, which also inform tag suggestion mechanism updates.
 - The recommended durations attached to suggested tags are almost always ignored.
 - Daily "heat intensity" plot is the most influential tool, motivating action when things get too cool, and rest when things get too heated.
