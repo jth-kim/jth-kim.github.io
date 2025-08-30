@@ -1,13 +1,17 @@
 # Personal Time-Use Metrics for Informed Decision Making
 <br>
 
+Python, Dynamic Metrics, ETL, Data Visualization, Time Series, API Integration, Supabase, iOS Widget
+
+<br>
+
 > **Any measure used for control is unreliable.** — Goodhart's Law
 
 Having learned that what gets measured gets improved, my younger self enthusiastically embarked on a journey of self-knowledge: time tracking to understand how my days actually looked, and to grapple firsthand with the uncomfortable revelation of just how little deep work a person naturally does without externally enforced consequences. Over five years of experimentation I learned that the road to inappropriate optimisation was paved with the combination of measurement with targets. I learned of the ease with which a metric can become a leveraged dopamine hack (Goodhart's Law) if one fails to prevent structural noise from being smuggled, often unconsciously, into the signal which must remain pure if it is to serve as a reliable compass. Such corruption, of course, can only lead to collapse of the paradigm, and I witnessed many collapses of my little towers of Babel.
 
-After another five years of consistent tracking (and fallen Babels), I'd attained productivity-satori: I came to know that DGP samsara is to metric nirvana as yin is to yang. I also came to know discipline - both in regard to technical capacity and the equally necessary spiritual vigilance, giving me the courage to again attempt a metric based decision making tool. This time, I built the tower such that my metrics will either be ignored (un-gamed) or remain honest (un-gamed). It won't reach into the heavens, but I think it will stand the test of time. 
+Another five years of consistent tracking (and fallen Babels) later, I'd attained productivity-satori: I came to know that DGP samsara is to metric nirvana as yin is to yang. I also came to know discipline - both in regard to technical capacity and the equally necessary spiritual vigilance, giving me the courage to once again attempt a metric-based decision-making tool. This time, I built the tower such that my metrics will either be ignored (un-gamed) or remain honest (un-gamed). It won't reach into the heavens, but I think it will stand the test of time.
 
-I present to you my Time Oracle ☯️
+I present my Time Oracle ☯️
 
 
 <figure>
@@ -17,7 +21,7 @@ I present to you my Time Oracle ☯️
 Its an iOS widget that draws data from Toggl:
 
 <figure>
-  <img width="4470" height="2366" alt="widget-screenshot" src="https://github.com/user-attachments/assets/36448b5b-450a-492d-beeb-eead762ab3c5" />
+  <img width="800" height="423" alt="widget-screenshot" src="https://github.com/user-attachments/assets/36448b5b-450a-492d-beeb-eead762ab3c5" /><br>
   <figcaption>Subset of the data. You can see a holiday, an intense period, and evolving priorities throughout.</figcaption>
 </figure>
 
@@ -81,7 +85,7 @@ Here's what I found after 6+ months of use:
 
 ## Tools
 
-Python (pandas, matplotlib, scipy, statsmodels, requests, supabase)\
+Python (ETL and analysis)\
 Scriptable (iPhone JavaScript app)\
 Supabase (data storage/updates)\
 Toggl (time tracking)\
