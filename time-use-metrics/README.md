@@ -47,11 +47,11 @@ Developed a system to process Toggl time tracking data into un-gameable metrics 
 
 ## Visualization
 <table style="width:100%; border-collapse: collapse;">
-  <tr>
+<!--   <tr>
     <td style="text-align:center; padding:10px;">
       <img width="409" height="879" alt="fri" src="https://github.com/user-attachments/assets/e4c039bf-a86e-47dc-b179-9d06d84cd209" /><br>
       <figcaption style="text-align:center;">Friday data</figcaption>
-    </td>
+    </td> -->
     <td style="text-align:center; padding:10px;">
       <img width="409" height="879" alt="sat" src="https://github.com/user-attachments/assets/db1fdcb7-8d91-41d7-a1fb-0349a4c365e6" /><br>
       <figcaption style="text-align:center;">Saturday data - day off as you can see</figcaption>
@@ -68,7 +68,7 @@ Developed a system to process Toggl time tracking data into un-gameable metrics 
 
 Taking a closer look at the Saturday screenshot, from top to bottom: 
 - First line: Tag suggestions, essentially recommendations for what to work on today. Each tag is associated with a verb. "Coding" in this case, recommended for 201 minutes. The little circle fills up thorugh the day as I work on it. It dynamically suggests 1 or 2 based on recent working patterns. Saturday is typically a day off, so it suggests only 1 tag.
-- Second line: Heat indicator, read right to left it displays 13 prior days + today for the indicator values. The values of the indicator are translated into braille characters with color to indicate heat. More dots = more heat. The furthest left character represents today's value, and it updates through the day as I accumulate time tracked. Yes, how astute your observation is; the past series values adjust with today's values, idk, I tried it both ways and prefer it as is. Maybe because fatigue / momentum aren't a flow but a stock? so it 'feels' more accurate? Maybe that's bad practice...
+- Second line: Heat indicator, read right to left it displays 13 prior days + today for the indicator values. The values of the indicator are translated into braille characters with color to indicate heat. More dots = more heat. The furthest left character represents today's value, and it updates through the day as I accumulate time tracked. <!-- - Yes, how astute your observation is; the past series values adjust with today's values, idk, I tried it both ways and prefer it as is. Maybe because fatigue / momentum aren't a flow but a stock? so it 'feels' more accurate? Maybe that's bad practice...-->
 - Third line: The heat indicator of line 2 is relative, and so doens't suggest anything about absolute quantities of time, so this line gives some orientation. The base value is the quantity of time tracking required to leave the dynamic thresholds unchanged. Upper and lower plus-minus correspond to the threshold where the braille colour from green to red or blue.
 - Fourth and fifth line: Same as the prior two lines, but for the week-on-week data. I tried using the braille here, but it looked weird, So I switched to column bar characters.
 
