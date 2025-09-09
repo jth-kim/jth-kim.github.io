@@ -7,6 +7,6 @@
 
 ## About
 
-I'm a Statistical Methodologist at the ABS
+I'm a Statistical Methodologist at the ABS.
 
-Pure Maths background - studied at USYD
+Pure Maths background - studied at The University of Sydney.
