@@ -8,7 +8,7 @@
 - [Mood Forecasting (ARIMA)](TBD): Forecasted mood using Oura ring and lifestyle data with SARIMA for health relevant outcome.
 
 ### Irresistible Digressions
-- [Circular Statistics & the N-gon Mean](https://jth-kim.github.io/circle_statistics/circle_statistics.md): A brief look basic non-euclidean statistics and O(n) mean hunting.
+- [Circular Statistics & the N-gon Mean](https://jth-kim.github.io/circle_statistics): A brief look basic non-euclidean statistics and O(n) mean hunting.
 
 ## About
 
